@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label>Username:</label>
+      <input
+        type="text"
+        required
+        autofocus
+        placeholder="Please enter your name...."
+      />
+      <br /><br />
+      <label>Password:</label>
+      <input type="text" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{6}">
+      <!-- <input type="text" minlength="6" maxlength="10" /> -->
+      <br /><br />
+      <label>Enter your age:</label>
+      <input type="number" min="18" max="20" />
+      <br /><br />
+      <label>Country:</label>
+      <input type="text" value="India" readonly />
+      <br><br>
+      <label>Select Files:</label>
+      <input type="file" multiple>
+      <br><br>
+      <label>Volume:</label>
+      <input type="number" step="5">
+      <br><br>
+      <label>Salary:</label>
+      <input type="number" step="5000">
+      <br><br>
+      <label>Mobile:</label>
+      <input type="tel" pattern="[0-9]{10}">
+      <br><br>
+      <button>Login</button>
+    </form>
+  </body>
+</html>
