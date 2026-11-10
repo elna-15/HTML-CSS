@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    input:focus{
+        background-color: blue;
+        border: 2px solid skyblue;
+    }
+    input{
+        outline: none;
+    }
+    button{
 
+        border: none;
+        background-color: blue;
+        color: white;
+        padding: 6px 20px;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+    }
+    input[type="checkbox"]:checked{
+        accent-color: brown;
+        height: 50px;
+        width: 50px;
+    }
+    input[type="radio"]:checked{
+        accent-color: red;;
+    }
+    a:link{
+        color: gold;
+
+    }
+    a:visited{
+        color:darkolivegreen;
+
+    }
+    a:active{
+        color: brown;
+    }
+    </style>
+</head>
+<body>
+    <form>
+        <label>Username:</label><br><br>
+        <input type="text">
+        <br><br>
+        <label>Hobbies:</label>
+        <input type="checkbox">Listening music
+        <input type="checkbox">Travelling
+        <input type="checkbox">Reading
+        <br><br>
+        <label>Payment:</label>
+        <input type="radio">UPI
+        <input type="radio">CASH
+        <input type="radio">CARD
+        <br><br>
+        <button>Login</button>
+        <br><br><br><br><br>
+        <a href="https://www.Flipkart.com">Open Flipkart</a>
+    </form>
+</body>
+</html>
