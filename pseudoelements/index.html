@@ -1,1 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1::first-letter {
+        color: aqua;
+      }
+      p::first-line{
+        color: blue;
+        font-style: italic;
+      }
+      p::selection{
+        color: red;
+        background-color: black;
+      }
+      h2::after{
+        content: "✨";
+      }
 
+      h2::before{
+        content: "🔥";
+      }
+      label::after{
+        content: "*";
+        color: red;
+      }
+      /* li::marker{
+        content: "💚";
+      }
+      #E::marker{
+        content: "❤️";
+      } */
+       /* li:first-child::marker{
+        content: "😏";
+       }
+       li:last-child::marker{
+        content: "🤴";
+       }
+       li:nth-child(3)::marker{
+        content: "⌛";
+       } */
+        li:nth-child(even)::marker{
+            content: "📍";
+        }
+        li:nth-child(odd)::marker{
+            content: "✨";
+        }
+    </style>
+  </head>
+  <body>
+    <h1>JSpider's</h1>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, assumenda
+      ipsam necessitatibus dolores ratione quas molestiae! Facere corrupti odit
+      obcaecati eligendi pariatur tempora nemo nobis placeat? Dolores nesciunt
+      quam assumenda.
+    </p>
+    <h2>Welcome to Qspiders</h2>
+    <form>
+        <label>Username:</label><br><br>
+        <input type="text">
+        <button>Login</button>
+    </form>
+    <ul>
+        <li>Maria</li>
+        <li id="E">Siya</li>
+        <li>Daisy</li>
+        <li>Riya</li>
+        <li>Miya</li>
+        <li>Niya</li>
+    </ul>
+  </body>
+</html>
