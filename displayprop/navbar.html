@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            border: 1px solid grey;
+            padding: 12px;
+            background-color: black;
+        }
+        nav>a{
+            color: white;
+            text-decoration: none;
+            /* border: 2px solid red; */
+            padding-right: 35px;
+        }
+        .dropdown{
+            /* border: 2px solid orange; */
+            width: 100px;
+            display: inline-block;
+            padding: 4px;
+            position: relative;
+            
+        }
+        .menu{
+            border: 1px solid olive;
+            background-color: blanchedalmond;
+            display: none;
+            position:absolute;
+            top:33px;
+            left: 0px;
+            width: 100%;
+        }
+        .menu>a{
+            color: white;
+            text-decoration: none;
+            display: block;
+            color: black;
+            padding: 5px 0px 5px 8px;
+            border-bottom: 0.5px solid black;
+
+        }
+        .dropdown>a{
+            color: white;
+            text-decoration: none;
+        }
+        .dropdown:hover .menu{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="">Home</a>
+        <div class="dropdown">
+            <a href="">Products</a>
+            <section class="menu">
+                <a href="">Laptop</a>
+                <a href="">Mobile</a>
+                <a href="">Watch</a>
+                <a href="">Shoes</a>
+            </section>
+        </div>
+        <a href="">Offers</a>
+        <a href="">Top-Deals</a>
+        <a href="">Help</a>
+    </nav>
+</body>
+</html>

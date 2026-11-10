@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dropdown{
+            border: 1px solid grey;
+            border-radius: 10px;
+            width:100px;
+            margin: 50px auto ;
+            padding: 8px;
+            background-color: bisque;
+        }
+        .menu{
+            /* border: 2px solid blue; */
+        }
+        .menu>a{
+            text-decoration: none;
+            display: block;
+            padding: 5px 0px 5px 8px;
+            border-bottom: 1px solid grey ;
+            background-color: black;
+            color: white;
+        }
+            .dropdown>a{
+                /* 
+                border: 2px solid orangered; */
+                padding-left: 22px;
+            }
+            .menu{
+                display:none;
+            }
+            .dropdown:hover .menu{
+                display: block;
+            }
+        
+    </style>
+</head>
+<body>
+  <div class="dropdown">
+    <a href="">Trainer's</a>
+    <section class="menu">
+       <a href="">Kalam</a>
+       <a href="">Dhanish</a>
+       <a href="">Neeha</a>
+       <a href="">Manisha</a>
+       <a href="">Sona(HR)</a>
+    </section>
+  </div>  
+</body>
+</html>
