@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            border:2px solid red;
+            height:100px;
+            width:300px;
+            background-color: blue;
+            color:white;
+        }
+        section{
+            border:2px solid blue;
+            width:50%;
+            height: 100px;
+            background-color: aqua;
+        } */
+         /* .parent{
+            font-size:20px;
 
+         }
+         .child{
+            font-size:5em;
+         } */
+          /* html{
+            font-size:10px;
+
+          }
+          h1{
+            font-size:3rem;
+          }
+          p{
+            font-size:1rem;
+          } */
+           section{
+             border:2px solid crimson;
+             width:50vw;
+             height:50vh;
+           }
+    </style>
+</head>
+<body>
+    <!-- <div>
+        Fawaz
+    </div> -->
+    <!--Relative(%)-->
+    <!-- <section>
+    <div>
+     child
+    </div>
+    </section>
+    <!-- Relative(%) -->
+     <!-- <section>
+        <img src="../backgroundproperties/beach.jpg">
+     </section> --> 
+
+    <!-- <div class="parent">
+        parent Lorem ipsum dolor sit amet consectetur.
+        <div class="Child">
+            child Lorem ipsum dolor sit amet consectetur.
+        </div>
+    </div>   -->
+    <!-- <h1>Css classes are going to end...</h1>
+    <p>Monday Js will start</p> -->
+   <section>
+    
+   </section>
+
+</body>
+</html>
