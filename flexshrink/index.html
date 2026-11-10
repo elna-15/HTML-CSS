@@ -1,1 +1,32 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            border: 2px solid red;
+            width: 600px;
+            display: flex;
+        }
+        div{
+            border: 2px solid blue;
+            background-color: skyblue;
+            width: 300px;
+            height: 100px;
+            flex-shrink: 1;
+        }
+        .a{
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+    </section>
+</body>
+</html>
