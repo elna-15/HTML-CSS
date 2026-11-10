@@ -1,1 +1,43 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+        }
+        .A{
+          border: 2px solid grey;
+          background-color: red;
+          position: absolute;
+          z-index: 1;
+          top:50px;
+          left:50px;
+        }
+        .B{
+             border: 2px solid grey;
+          background-color: green;
+          position: absolute;
+          z-index:2;
+          top:70px;
+          left:70px;
+        }
+        .C{
+             border: 2px solid grey;
+          background-color: blue;
+          position: absolute;
+          top:90px;
+          left:90px;
+          z-index:3;
+        }
+    </style>
+</head>
+<body>
+    <div class="A">A</div>
+    <div class="B">B</div>
+    <div class="C">C</div>
+</body>
+</html>
