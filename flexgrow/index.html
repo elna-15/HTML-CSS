@@ -1,1 +1,104 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            border: 2px solid red;
+            width: 900px;
+            display: flex;
+        }
+        div{
+            border: 2px solid blue;
+            height: 100px;
+            width:200px;
+        }
+        .logo{
+            background-color: skyblue;
+            flex-grow: 3;
+        }
+        .search{
+            background-color: lightgreen;
+            flex-grow: 1;
+        }
+        .cart{
+            background-color: lightsalmon;
+            flex-grow: 2;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="logo">Logo</div>
+        <div class="search">Search</div>
+        <div class="cart">Cart</div>
+    </section>
+</body>
 
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            display: flex;
+            border: 2px solid gray;
+            align-items: center;
+            background-color: black;
+            color: white;
+            gap: 10px;
+            padding: 4px;
+        }
+        div{
+            /* border: 2px solid red; */
+        }
+        .logo{
+            font-size: 20px;
+            font-weight: bold;
+            color: orangered;
+        }
+        .search input{
+            padding: 3px 0px 3px 5px;
+            outline: none;
+            border: 1px solid grey;
+            border-radius: 3px;
+            width: 100%;
+        }
+        button{
+            padding: 3px 6px;
+            background-color: orange;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+        .search{
+            flex-grow: 1;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">QSpiders</div>
+        <div class="search">
+            <input type="text" placeholder="Search Courses...">
+        </div>
+        <div class="btn">
+            <button>Explore</button>
+        </div>
+    </nav>
+</body>
+</html>

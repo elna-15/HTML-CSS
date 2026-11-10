@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .navbar {
+        /* border:2px solid black; */
+        display: flex;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+
+        justify-content: space-around;
+        background-color: bisque;
+      }
+      span {
+        color: blue;
+      }
+      nav a {
+        text-decoration: none;
+      }
+      div {
+        /* border: 2px solid red; */
+      }
+      nav {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+      }
+      .logo {
+        display: flex;
+        gap: 15px;
+        margin-left: 20px;
+      }
+      .cat {
+        display: flex;
+        flex-grow: 3;
+      }
+      /* img{
+        
+        width:100%;
+        height:400px;
+        position:absolute;
+
+       } */
+      .head {
+        background-image: url(./online-shopping-background-generative-ai-free-photo.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* width: 400px; */
+        height: 400px;
+      }
+      .featured {
+        display: flex;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        background-color: bisque;
+        width: 125px;
+        height: 45px;
+        box-shadow: 2px 1px 1px;
+      }
+      .con {
+        padding: 2px;
+      }
+      .elect {
+        padding: 9px;
+      }
+      .categories {
+        display: flex;
+        gap: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="navbar">
+      <div style="font-weight: bold" class="icon">
+        <i class="fa-solid fa-cart-shopping"></i>Shop<span>Cart</span>
+      </div>
+      <div>
+        <nav class="cat">
+          <a style="color: blue" href="">Home</a>
+          <a style="color: black" href="">Shop</a>
+          <a style="color: black" href="">Categories</a>
+          <a style="color: black" href="">Deals</a>
+          <a style="color: black" href="">New Arrivals</a>
+          <a style="color: black" href="">Contact</a>
+        </nav>
+      </div>
+      <div class="logo">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-person"></i>
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </section>
+    <section class="head">
+      <!-- <img src="./online-shopping-background-generative-ai-free-photo.jpeg"> -->
+      <div class="summer"></div>
+      <h3>Summer Sale</h3>
+      <pre>
+Big Deals on 
+    Smart Essentials        
+        </pre
+      >
+      <small>Explore top quality at best prices.</small>
+      <small>Limited time offer!</small>
+      <button>Shop Now &rarr;</button>
+    </section>
+    <h2 style="text-align: center">Featured Categories</h2>
+    <section class="categories">
+      <div class="featured">
+        <div class="elect"><i class="fa-solid fa-headphones"></i></div>
+        <div class="con">
+          <pre>Electronics</pre>
+          <p><small>120+ items</small></p>
+        </div>
+      </div>
+      <div class="featured">
+        <div><i class="fa-solid fa-person-dress"></i></div>
+        <div>
+          <pre>Fashion</pre>
+          <p><small>180+ items</small></p>
+        </div>
+      </div>
+      <div class="featured">
+        <div><i class="fa-solid fa-couch"></i></div>
+        <div>
+          <pre>Home&Living</pre>
+          <p><small>150+items</small></p>
+        </div>
+      </div>
+      <div class="featured">
+        <div></div>
+        <div>
+          <pre>Beauty</pre>
+          <p><small>90+ items</small></p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
